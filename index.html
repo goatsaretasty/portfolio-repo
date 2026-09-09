@@ -364,6 +364,20 @@ footer {
 
       <div class="proj reveal">
         <div class="head">
+          <h3>NYC Taxi pipeline</h3>
+          <span class="status">Shipped</span>
+        </div>
+        <p>An ELT pipeline built entirely in the cloud — DuckDB reads NYC TLC's
+        public Yellow Taxi trip data straight off its HTTPS source as Parquet,
+        no download step required. dbt models clean and aggregate it into
+        daily and hourly marts, with schema tests enforcing data quality on
+        every run. The whole thing lives in a GitHub Codespace rather than
+        local hardware, with docs published straight from the pipeline. <a href="https://github.com/goatsaretasty/data-eng-workspace">Source</a> ·
+        <a href="https://goatsaretasty.github.io/data-eng-workspace/">Docs site</a></p>
+      </div>
+
+      <div class="proj reveal">
+        <div class="head">
           <h3>Earworm</h3>
           <span class="status">Prototype</span>
         </div>
